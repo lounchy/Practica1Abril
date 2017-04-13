@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/fragmentD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/descargarD"
+        android:src="@drawable/billy_wilder"
+        android:clickable="true"
+        android:scaleType="centerCrop"/>
+
+    <ProgressBar
+        android:id="@+id/progresbarD"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+
+
+</FrameLayout>
